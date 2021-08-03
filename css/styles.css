@@ -353,6 +353,11 @@ Header
 		left: 80%;
 	}
 }
+@media screen and (min-width: 1200px) {
+	.banner-logo {
+		left: 85%;
+	}
+}
 /* content divider */
 .content-divider {
 	height: 0.5rem;
