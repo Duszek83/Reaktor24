@@ -4,14 +4,16 @@ Fonts
 ================
 */
 
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grandstander");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grandstander');
 
 /* 
 ================
 Variables
 ================
 */
-
+html {
+	scroll-behavior: smooth;
+}
 :root {
 	--clr-primary: #f0c000;
 	--clr-primary-light: #fff333;
@@ -19,8 +21,8 @@ Variables
 	--clr-gray-5: #617498;
 	--clr-gray-10: #f1f5f8;
 	--clr-white: #fff;
-	--ff-primary: "Catamaran", sans-serif;
-	--ff-secondary: "Grandstander", cursive;
+	--ff-primary: 'Catamaran', sans-serif;
+	--ff-secondary: 'Grandstander', cursive;
 	--transition: all 0.3s linear;
 	--spacing: 0.25rem;
 	--radius: 0.5rem;
@@ -112,7 +114,7 @@ p {
 }
 .clearfix::after,
 .clearfix::before {
-	content: "";
+	content: '';
 	clear: both;
 	display: table;
 }
@@ -279,7 +281,7 @@ Header
 .header {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+		url('../images/main-bcg.jpeg') center/cover no-repeat fixed;
 	position: relative;
 	/* animation */
 	overflow-x: hidden;
@@ -673,7 +675,7 @@ Tandem
 .tandem {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url("../images/product-1.jpeg") center/cover no-repeat fixed;
+		url('../images/product-1.jpeg') center/cover no-repeat fixed;
 	position: relative;
 	/* animation */
 	overflow-x: hidden;
@@ -711,7 +713,7 @@ Course
 .course {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-		url("../images/product-3.jpeg") center/cover no-repeat fixed;
+		url('../images/product-3.jpeg') center/cover no-repeat fixed;
 	position: relative;
 	/* animation */
 	overflow-x: hidden;
@@ -742,7 +744,7 @@ Jumps
 .jumps {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url("../images/product-2.jpeg") center/cover no-repeat fixed;
+		url('../images/product-2.jpeg') center/cover no-repeat fixed;
 	position: relative;
 	/* animation */
 	overflow-x: hidden;
